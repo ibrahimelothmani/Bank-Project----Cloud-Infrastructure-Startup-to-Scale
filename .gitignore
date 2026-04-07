@@ -1,0 +1,21 @@
+# Vagrant
+.vagrant/
+
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# ignoring the gitleaks report generated during the CI/CD pipeline
+gitleaks-report.json

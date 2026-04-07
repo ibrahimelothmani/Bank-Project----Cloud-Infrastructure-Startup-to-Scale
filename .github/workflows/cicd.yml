@@ -45,7 +45,7 @@ jobs:
           gitleaks --version
 
       - name: Gitleaks Code Scan
-        run: gitleaks detect source . -r gitleaks-report.json -f json
+        run: gitleaks detect --no-git -s . -r gitleaks-report.json -f json
 
   test:
     runs-on: self-hosted
