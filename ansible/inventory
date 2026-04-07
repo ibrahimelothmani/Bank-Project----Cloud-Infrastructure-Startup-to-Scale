@@ -2,4 +2,4 @@
 192.168.121.212 ansible_user=vagrant ansible_ssh_private_key_file=/home/the-green/Desktop/Devops_Project/Bank-Project-deploy-a-Java-based-application-using-GitHub-Action-Pipeline/.vagrant/machines/default/libvirt/private_key
 
 [sonarqube]
-192.168.121.212 ansible_user=vagrant ansible_ssh_private_key_file=/home/the-green/Desktop/Devops_Project/Bank-Project-deploy-a-Java-based-application-using-GitHub-Action-Pipeline/.vagrant/machines/default/libvirt/private_key
+192.168.121.60 ansible_user=vagrant ansible_ssh_private_key_file=/home/the-green/Desktop/Devops_Project/Bank-Project-deploy-a-Java-based-application-using-GitHub-Action-Pipeline/.vagrant/machines/default/libvirt/private_key

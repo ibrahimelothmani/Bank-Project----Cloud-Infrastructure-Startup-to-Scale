@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
   sudo usermod -aG docker vagrant
   sudo usermod -aG docker $USER
   newgrp docker
-  # pull sonarqube image
-  docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+  # pull sonarqube image and start it in another port to avoid conflict with portainer
+  docker run -d --name sonar -p 8080:9000 sonarqube:lts-community
   SHELL
 end
