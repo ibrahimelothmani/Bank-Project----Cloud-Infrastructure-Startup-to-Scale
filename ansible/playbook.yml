@@ -16,7 +16,6 @@
           - unzip
         state: present
 
----
 - name: Install Docker, add User and make new Docker Group
   hosts: sonarqube
   become: true
